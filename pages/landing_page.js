@@ -1,4 +1,3 @@
-import styled from 'styled-components'
 import styles from '../styles/Home.module.css'
 import Menu from '../components/menu'
 
@@ -17,7 +16,7 @@ export default function LandingPage (){
 
             <h2 className={styles.title}>Software Developer</h2>
 
-            <a href='#about'>
+            <a>
                 <div className={styles.Scroll}></div>
             </a>
 

@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import Menu from "../components/menu";
 import styles from '../styles/Home.module.css'
 

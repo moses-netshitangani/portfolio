@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import styled from "styled-components";
 import Menu from "../components/menu";
 import styles from '../styles/Home.module.css'
 const axios = require('axios').default;
@@ -11,7 +10,7 @@ export default function Contact() {
 
     // api call to fetch joke
     const getJoke = async() => {
-        axios.get("https://v2.jokeapi.dev/joke/Programming?type=single")
+        axios.get("https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,explicit&type=single")
             .then(res => setJoke(res.data.joke))
             .catch(e => console.error(e))
     }
