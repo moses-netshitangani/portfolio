@@ -44,7 +44,7 @@ export default function Contact() {
                     <h3>Or, get in touch:</h3>
                     <a href="mailto:ntsndi017@myuct.ac.za"></a>
                     <a href="https://linkedin.com/in/moses-netshitangani-2b396417b"></a>
-                    <a href="tel:0617090760"></a>
+                    <a href="https://github.com/moses-netshitangani"></a>
                 </div>
             </div>
 

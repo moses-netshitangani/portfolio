@@ -8,7 +8,6 @@ export default function Background() {
         <div className={styles.AboutContainer}>
 
             <Menu />
-
             <div className={styles.AboutHeadings}>
                 <h2>Academics/Career</h2>
                 <h2>Some Projects</h2>
@@ -33,7 +32,7 @@ export default function Background() {
 
             <div className={styles.Projects}>
 
-                <div className={styles.ProjectCard}>
+                <a className={styles.ProjectCard} href="https://github.com/moses-netshitangani/DrDeath">
                     <div className={styles.CardTop}>
                         <h5>Dr Death</h5>
                         <p>
@@ -45,9 +44,9 @@ export default function Background() {
                     <div className={styles.CardBottom}>
                         <p>Unity + SteamVR</p>
                     </div>
-                </div>
+                </a>
 
-                <div className={styles.ProjectCard}>
+                <a className={styles.ProjectCard} href="https://github.com/moses-netshitangani/video-forum">
                     <div className={styles.CardTop}>
                         <h5>OnlineSuccess</h5>
                         <p>
@@ -59,9 +58,9 @@ export default function Background() {
                     <div className={styles.CardBottom}>
                         <p>MERN stack</p>
                     </div>
-                </div>
+                </a>
 
-                <div className={styles.ProjectCard}>
+                <a className={styles.ProjectCard} href="https://github.com/moses-netshitangani/image-cryptosystem">
                     <div className={styles.CardTop}>
                         <h5>imgCryptoSystem</h5>
                         <p>
@@ -73,9 +72,12 @@ export default function Background() {
                     <div className={styles.CardBottom}>
                         <p>Java</p>
                     </div>
-                </div>
-                
+                </a>
+
             </div>
+
+            <h2>More pages to be added soon...</h2>
+
         </div>
     )
 }

@@ -125,6 +125,12 @@
   justify-content: center;
 }
 
+.AboutContainer h2 {
+  position: absolute;
+  bottom: 1em;
+  color: rgb(17, 255, 17);
+}
+
 .Projects {
   width: 40%;
   height: 70%;
@@ -357,7 +363,7 @@
 
 .ContactSocials a {
   width: 2.5em;
-  height: 1.5em;
+  height: 2em;
 }
 
 .ContactSocials a:nth-of-type(1) {
@@ -375,7 +381,7 @@
 }
 
 .ContactSocials a:nth-of-type(3) {
-  background: url("../public/call.png");
+  background: url("../public/git.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
